@@ -1,0 +1,6 @@
+Host caen
+  HostName login.engin.umich.edu
+  User rdslade
+  ControlMaster auto
+  ControlPath ~/.ssh/_%r@%h:%p
+  ControlPersist 86400
